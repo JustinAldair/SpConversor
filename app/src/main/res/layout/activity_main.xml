@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#E91E63"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="128dp"
+            android:layout_height="54dp"
+            android:layout_weight="0.4"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/black"
+            android:text="Convertidor de Medidas"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/spinner_border">
+
+        <TextView
+            android:id="@+id/elegir"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:text="Tipo:"/>
+
+        <Spinner
+            android:id="@+id/elegirConversion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/spinner_border">
+
+        <TextView
+            android:id="@+id/convertir"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:text="Convertir de:"/>
+
+        <Spinner
+            android:id="@+id/convertirDe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/spinner_border">
+
+        <TextView
+
+            android:text="Convertir a:"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:id="@+id/convertirA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/EtdatoIngresado"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnConverti"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:elevation="200dp"
+            android:text="Calcular"
+            android:translationZ="200dp"
+            app:cornerRadius="100dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvresultado"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Convertidor</string>
+
+    <string name="categoria">Selecciona la categoría de conversión:</string>
+    <string name="convertir_de">Convertir de:</string>
+    <string name="convertir_a">Convertir a:</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+
+    <!-- Strings para la categoría de peso -->
+    <string name="categoria_peso">Peso</string>
+    <string name="libras">Libras</string>
+    <string name="kilogramos">Kilogramos</string>
+    <string name="onzas">Onzas</string>
+    <string name="gramos">Gramos</string>
+
+    <!-- Strings para la categoría de volumen -->
+    <string name="categoria_volumen">Volumen</string>
+    <string name="galones">Galones</string>
+    <string name="litros">Litros</string>
+    <string name="pintas">Pintas</string>
+    <string name="mililitros">Mililitros</string>
+
+    <!-- Strings para la categoría de medida -->
+    <string name="categoria_medida">Medida</string>
+    <string name="pulgadas">Pulgadas</string>
+    <string name="pies">Pies</string>
+    <string name="centimetros">Centímetros</string>
+    <string name="metros">Metros</string>
+
+    <!-- Strings para la categoría de temperatura -->
+    <string name="categoria_temperatura">Temperatura</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+
+</resources>
